@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pixelated: ["Pixelify Sans", "sans-serif"],
-        static: ["Geo", "sans-serif"],
+        pixelated: ["Pixelify Sans", "monospace", "sans-serif"],
         departureMono: ["Departure Mono", "sans-serif"],
+        determination: ["Determination Mono", "sans-serif"],
       },
       colors: {
         superdDarkBlue: "#0b0e1e",

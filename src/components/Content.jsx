@@ -5,15 +5,15 @@ function Content() {
   return (
     <div className="flex h-full w-full flex-col items-start max-w-lg">
       <ul className="flex flex-col gap-y-4">
+        <h1 className="font-departureMono text-slate-200 text-3xl">
+          Nicholas Terehin
+        </h1>
         <a className="font-departureMono text-slate-200 text-xs">
           <span tabIndex={0} role="text">
             nicholasterehin@gmail.com
           </span>
         </a>
-        <h1 className="font-pixelated text-slate-200 text-4xl">
-          Nicholas Terehin
-        </h1>
-        <span className="font-pixelated text-gray-500">Brooklyn, NY</span>
+        <span className="font-determination text-gray-500">Brooklyn, NY</span>
         <img src={pfp} alt="" className="h-48 w-48" />
         <p className="font-departureMono text-xs text-slate-200">
           Hi, I'm Nicholas! I'm a dynamic and passionate software/web developer,

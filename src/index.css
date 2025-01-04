@@ -9,6 +9,13 @@
   font: normal;
 }
 
+@font-face {
+  font-family: "Determination Mono";
+  src: url("./assets/fonts/DeterminationMonoWebRegular-Z5oq.ttf");
+  font-weight: normal;
+  font: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
