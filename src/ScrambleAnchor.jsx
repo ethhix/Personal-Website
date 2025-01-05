@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-const ScrambleText = ({ text, href }) => {
+const ScrambleAnchor = ({ text, href }) => {
   const [displayText, setDisplayText] = useState(text);
   const [intervalId, setIntervalId] = useState(null);
 
-  const scrambleText = () => {
+  const ScrambleAnchor = () => {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let iterations = 0;
@@ -41,7 +41,7 @@ const ScrambleText = ({ text, href }) => {
     <a
       href={href}
       className="transition duration-500 hover:bg-slate-200 hover:text-black"
-      onMouseOver={scrambleText}
+      onMouseOver={ScrambleAnchor}
       style={{
         display: "inline-block",
         textAlign: "center",
@@ -79,4 +79,4 @@ const ScrambleText = ({ text, href }) => {
   );
 };
 
-export default ScrambleText;
+export default ScrambleAnchor;

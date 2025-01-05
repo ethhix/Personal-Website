@@ -1,12 +1,12 @@
 import React from "react";
-import ScrambleText from "../ScrambleText";
+import ScrambleAnchor from "../ScrambleAnchor";
 
 function Header() {
   return (
     <div className="flex flex-wrap gap-x-6 text-slate-200">
-      <ScrambleText text="[ethix.dev]" />
-      <ScrambleText text="[experience]" />
-      <ScrambleText text="[projects]" />
+      <ScrambleAnchor text="[ethix.dev]" />
+      <ScrambleAnchor text="[experience]" />
+      <ScrambleAnchor text="[projects]" />
     </div>
   );
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import ScrambleText from "../ScrambleText";
+import ScrambleAnchor from "../ScrambleAnchor";
 
 function Footer() {
   return (
     <div className="flex flex-row-reverse flex-wrap gap-x-4 text-slate-200 text-base">
-      <ScrambleText
+      <ScrambleAnchor
         text={"[linkedin]"}
         href={"https://linkedin.com/in/nicholasterehin"}
       />
-      <ScrambleText text={"[github]"} href={"https://github.com/ethhix"} />
+      <ScrambleAnchor text={"[github]"} href={"https://github.com/ethhix"} />
     </div>
   );
 }
