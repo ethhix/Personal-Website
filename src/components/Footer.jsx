@@ -6,9 +6,9 @@ function Footer() {
     <div className="flex flex-row-reverse flex-wrap gap-x-4 text-slate-200 text-base">
       <ScrambleAnchor
         text={"[linkedin]"}
-        href={"https://linkedin.com/in/nicholasterehin"}
+        to={"https://linkedin.com/in/nicholasterehin"}
       />
-      <ScrambleAnchor text={"[github]"} href={"https://github.com/ethhix"} />
+      <ScrambleAnchor text={"[github]"} to={"https://github.com/ethhix"} />
     </div>
   );
 }

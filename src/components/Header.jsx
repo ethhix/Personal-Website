@@ -3,11 +3,11 @@ import ScrambleAnchor from "../ScrambleAnchor";
 
 function Header() {
   return (
-    <div className="flex flex-wrap gap-x-6 text-slate-200">
-      <ScrambleAnchor text="[ethix.dev]" />
-      <ScrambleAnchor text="[experience]" />
-      <ScrambleAnchor text="[projects]" />
-    </div>
+    <header className="flex flex-wrap gap-x-6 text-slate-200">
+      <ScrambleAnchor text="[ethix.dev]" to="/" />
+      <ScrambleAnchor text="[experience]" to="/experience" />
+      <ScrambleAnchor text="[projects]" to="/projects" />
+    </header>
   );
 }
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-const ScrambleAnchor = ({ text, href }) => {
+const ScrambleAnchor = ({ text, to }) => {
   const [displayText, setDisplayText] = useState(text);
   const [intervalId, setIntervalId] = useState(null);
 
@@ -37,9 +38,13 @@ const ScrambleAnchor = ({ text, href }) => {
     setIntervalId(newIntervalId);
   };
 
+  useEffect(() => {
+    ScrambleAnchor();
+  }, []);
+
   return (
-    <a
-      href={href}
+    <Link
+      to={to}
       className="transition duration-500 hover:bg-slate-200 hover:text-black"
       onMouseOver={ScrambleAnchor}
       style={{
@@ -66,8 +71,6 @@ const ScrambleAnchor = ({ text, href }) => {
             position: "absolute",
             top: 0,
             left: 0,
-            width: "100%",
-            height: "100%",
             overflow: "hidden",
             whiteSpace: "nowrap",
           }}
@@ -75,7 +78,7 @@ const ScrambleAnchor = ({ text, href }) => {
           {displayText}
         </span>
       </span>
-    </a>
+    </Link>
   );
 };
 
