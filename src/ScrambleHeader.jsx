@@ -37,6 +37,10 @@ const ScrambleHeader = ({ text }) => {
     setIntervalId(newIntervalId);
   };
 
+  useEffect(() => {
+    ScrambleHeader();
+  }, []);
+
   return (
     <h1
       onMouseOver={ScrambleHeader}
