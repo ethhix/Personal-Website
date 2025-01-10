@@ -44,7 +44,7 @@ const ScrambleTitle = ({ text }) => {
   return (
     <h1
       onMouseOver={ScrambleTitle}
-      className="font-departureMono text-slate-200 text-3xl"
+      className="font-departureMono text-slate-200 text-3xl w-fit"
     >
       {displayText}
     </h1>

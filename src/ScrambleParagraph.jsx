@@ -58,7 +58,7 @@ const ScrambleParagraph = ({ text, hoverEffect }) => {
     <div className="w-full overflow-hidden">
       <p
         onMouseEnter={hoverEffect ? () => scrambleEffect() : undefined}
-        className="font-departureMono text-slate-200 text-xs break-words"
+        className="font-departureMono text-slate-200 text-xs w-fit break-words"
       >
         {displayText}
       </p>
