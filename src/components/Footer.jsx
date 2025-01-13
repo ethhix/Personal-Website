@@ -7,8 +7,17 @@ function Footer() {
       <ScrambleAnchor
         text={"[linkedin]"}
         to={"https://linkedin.com/in/nicholasterehin"}
+        className={
+          "transition duration-500 hover:bg-slate-200 hover:text-black"
+        }
       />
-      <ScrambleAnchor text={"[github]"} to={"https://github.com/ethhix"} />
+      <ScrambleAnchor
+        text={"[github]"}
+        to={"https://github.com/ethhix"}
+        className={
+          "transition duration-500 hover:bg-slate-200 hover:text-black"
+        }
+      />
     </div>
   );
 }

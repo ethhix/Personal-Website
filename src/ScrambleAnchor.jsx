@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const ScrambleAnchor = ({ text, to }) => {
+const ScrambleAnchor = ({ text, to, className }) => {
   const [displayText, setDisplayText] = useState(text);
   const [intervalId, setIntervalId] = useState(null);
 
@@ -45,11 +45,10 @@ const ScrambleAnchor = ({ text, to }) => {
   return (
     <Link
       to={to}
-      className="transition duration-500 hover:bg-slate-200 hover:text-black"
+      className={`${className}`}
       onMouseOver={ScrambleAnchor}
       style={{
         display: "inline-block",
-        textAlign: "center",
         overflow: "hidden",
         whiteSpace: "nowrap",
         cursor: "pointer",

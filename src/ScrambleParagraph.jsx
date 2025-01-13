@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const ScrambleParagraph = ({ text, hoverEffect }) => {
+const ScrambleParagraph = ({ text, hoverEffect, className }) => {
   const [displayText, setDisplayText] = useState(text);
   const [intervalId, setIntervalId] = useState(null);
 
@@ -58,7 +58,7 @@ const ScrambleParagraph = ({ text, hoverEffect }) => {
     <div className="w-full overflow-hidden">
       <p
         onMouseEnter={hoverEffect ? () => scrambleEffect() : undefined}
-        className="font-departureMono text-slate-200 text-xs w-fit break-words"
+        className={`font-departureMono w-fit break-words ${className}`}
       >
         {displayText}
       </p>
