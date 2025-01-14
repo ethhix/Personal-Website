@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="flex flex-wrap gap-x-6 text-slate-200">
       <ScrambleAnchor
-        text="[ethix.dev]"
+        text="[ethhix.dev]"
         to="/"
         className={`transition duration-500 ${
           currentPage === "/"
