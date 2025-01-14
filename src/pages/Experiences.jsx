@@ -25,7 +25,7 @@ function Experiences() {
             <ScrambleAnchor
               text="[email]"
               to="mailto:nicholasterehin@gmail.com"
-              className="hover:text-slate-300 text-slate-400 text-xs sm:text-sm"
+              className="hover:text-slate-300 text-slate-400 text-sm text-left"
             />
             <ScrambleAnchor
               text={"[github]"}
