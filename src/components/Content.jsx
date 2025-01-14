@@ -4,7 +4,7 @@ import ScrambleTitle from "../ScrambleTitle";
 import ScrambleParagraph from "../ScrambleParagraph";
 function Content() {
   return (
-    <div className="flex h-full w-full flex-col items-start max-w-lg">
+    <div className="transition-all duration-500 ease-in-out w-full max-w-lg mx-auto">
       <ul className="flex flex-col gap-y-4 w-full">
         <ScrambleTitle text={"Nicholas Terehin"} />
         <ScrambleParagraph

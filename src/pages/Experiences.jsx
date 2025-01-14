@@ -7,7 +7,7 @@ import CourseSubjectTag from "../components/CourseSubjectTag";
 
 function Experiences() {
   return (
-    <div>
+    <div className="transition-all duration-500 ease-in-out w-full max-w-3xl mx-auto">
       <div className="flex flex-row gap-8 flex-1 flex-wrap">
         <div className="flex flex-col gap-4">
           <ScrambleTitle text="Nicholas Terehin" />
@@ -89,6 +89,87 @@ function Experiences() {
                 subject={"Introduction to Multimedia Programming"}
               />
             </div>
+          </div>
+        </section>
+        <section className="flex flex-col">
+          <h2 className="font-departureMono text-2xl font-bold text-slate-200 mt-8">
+            Education
+          </h2>
+          <br />
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-row items-center justify-between gap-8">
+              <div className="flex flex-row items-center whitespace-nowrap gap-2">
+                <h3 className="font-departureMono text-xl font-bold text-slate-400 leading-none">
+                  ITV Digital Marketing
+                </h3>
+                <CourseSubjectTag subject={"Brooklyn, NY"} />
+              </div>
+              <p className="font-departureMono text-sm font-light text-slate-400 leading-none">
+                May'24-Sep'24
+              </p>
+            </div>
+            <p className="font-departureMono text-sm font-light text-slate-400">
+              Web Development & SEO Management Intern
+            </p>
+            <span className="font-departureMono text-sm font-light text-slate-300">
+              Recommendation Letter:
+              <a href="https://tinyurl.com/4rhwzdc4" className="underline">
+                https://tinyurl.com/4rhwzdc4
+              </a>
+            </span>
+            <ScrambleParagraph
+              text={`· Developed and managed WordPress landing pages using Elementor, enhancing layout, navigation, and visual appeal to improve
+ user experience and effectively communicate brand messages. Demonstrated expertise in creating visually appealing and
+ user-friendly designs.`}
+              hoverEffect={false}
+              className={"text-slate-300 text-sm"}
+            />
+            <ScrambleParagraph
+              text={`· Conducted comprehensive unit testing to ensure cross-device and browser compatibility, maintaining high standards of
+            quality. Demonstrated attention to detail and commitment to delivering robust and reliable web solutions.`}
+              hoverEffect={false}
+              className={"text-slate-300 text-sm"}
+            />
+            <ScrambleParagraph
+              text={`· Implemented SEO strategies for landing pages using SEMRush, enhancing search engine visibility and site ranking through
+             best practices and expertise.`}
+              hoverEffect={false}
+              className={"text-slate-300 text-sm"}
+            />
+            <ScrambleParagraph
+              text={`· Collaborated with the marketing team to design and execute digital marketing campaigns, aligning with the company’s
+             marketing objectives. Demonstrated strong teamwork and communication skills to enhance campaign effectiveness.`}
+              hoverEffect={false}
+              className={"text-slate-300 text-sm"}
+            />
+          </div>
+        </section>
+        <section>
+          <h2 className="font-departureMono text-2xl font-bold text-slate-200 mt-8">
+            Skills
+          </h2>
+          <br />
+          <div className="flex flex-wrap justify-start gap-1.5 py-2 sm:flex">
+            <CourseSubjectTag subject={"JavaScript"} />
+            <CourseSubjectTag subject={"HTML"} />
+            <CourseSubjectTag subject={"CSS"} />
+            <CourseSubjectTag subject={"Git"} />
+            <CourseSubjectTag subject={"GitHub"} />
+            <CourseSubjectTag subject={"React"} />
+            <CourseSubjectTag subject={"Java"} />
+            <CourseSubjectTag subject={"C++"} />
+            <CourseSubjectTag subject={"Node.js"} />
+            <CourseSubjectTag subject={"MySQL"} />
+            <CourseSubjectTag subject={"PHP"} />
+            <CourseSubjectTag subject={"Bootstrap"} />
+            <CourseSubjectTag subject={"Tailwind"} />
+            <CourseSubjectTag subject={"AJAX"} />
+            <CourseSubjectTag subject={"JavaFX"} />
+            <CourseSubjectTag subject={"VSCode"} />
+            <CourseSubjectTag subject={"Visual Studio Code"} />
+            <CourseSubjectTag subject={"Eclipse"} />
+            <CourseSubjectTag subject={"WordPress"} />
+            <CourseSubjectTag subject={"Search Engine Optimization (SEO)"} />
           </div>
         </section>
       </article>
