@@ -7,27 +7,25 @@ import CourseSubjectTag from "../components/CourseSubjectTag";
 
 function Experiences() {
   return (
-    <div className="transition-all duration-500 ease-in-out w-full max-w-3xl mx-auto">
-      <div className="flex flex-row gap-8 flex-1 flex-wrap">
-        <div className="flex flex-col gap-4">
+    <div className="transition-all duration-500 ease-in-out w-full md:max-w-3xl">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
+        <div className="flex flex-col gap-4 flex-1">
           <ScrambleTitle text="Nicholas Terehin" />
           <div>
             <ScrambleParagraph
               text="Software Engineer, Web Developer"
               hoverEffect={false}
-              className={"text-slate-400"}
+              className="text-slate-400"
             />
-            <span className="font-determination text-gray-500 text-base ">
+            <span className="font-determination text-gray-500 text-sm sm:text-base">
               Brooklyn, NY
             </span>
           </div>
-          <div className="flex flex-row gap-2 text-wrap">
+          <div className="flex flex-row flex-wrap gap-2">
             <ScrambleAnchor
-              text={"[email]"}
-              to={"mailto:nicholasterehin@gmail.com"}
-              className={
-                "hover:text-slate-300 text-slate-400 text-sm text-left"
-              }
+              text="[email]"
+              to="mailto:nicholasterehin@gmail.com"
+              className="hover:text-slate-300 text-slate-400 text-xs sm:text-sm"
             />
             <ScrambleAnchor
               text={"[github]"}
@@ -45,21 +43,24 @@ function Experiences() {
             />
           </div>
         </div>
-        <img src={pfp} alt="" className="max-h-36 sm:max-h-36" />
+        <img
+          src={pfp}
+          alt=""
+          className="w-24 h-24 sm:w-36 sm:h-36 object-cover"
+        />
       </div>
-      <br />
-      <article>
+
+      <article className="mt-8">
         <section className="flex flex-col">
-          <h2 className="font-departureMono text-2xl font-bold text-slate-200 mt-8">
+          <h2 className="font-departureMono text-xl sm:text-2xl font-bold text-slate-200">
             Education
           </h2>
-          <br />
-          <div className="flex flex-col gap-3">
+          <div className="mt-4 flex flex-col gap-3">
             <div className="flex flex-row items-center justify-between">
-              <h3 className="font-departureMono text-xl font-bold text-slate-400 leading-none">
+              <h3 className="font-departureMono text-lg sm:text-xl font-bold text-slate-400">
                 Brooklyn College
               </h3>
-              <p className="font-departureMono text-sm font-light text-slate-400 leading-none">
+              <p className="font-departureMono text-xs sm:text-sm text-slate-400">
                 2019-2024
               </p>
             </div>
@@ -93,27 +94,30 @@ function Experiences() {
         </section>
         <section className="flex flex-col">
           <h2 className="font-departureMono text-2xl font-bold text-slate-200 mt-8">
-            Education
+            Experience
           </h2>
           <br />
           <div className="flex flex-col gap-3">
-            <div className="flex flex-row items-center justify-between gap-8">
-              <div className="flex flex-row items-center whitespace-nowrap gap-2">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <h3 className="font-departureMono text-xl font-bold text-slate-400 leading-none">
                   ITV Digital Marketing
                 </h3>
                 <CourseSubjectTag subject={"Brooklyn, NY"} />
               </div>
               <p className="font-departureMono text-sm font-light text-slate-400 leading-none">
-                May'24-Sep'24
+                Jun'24-Sep'24
               </p>
             </div>
             <p className="font-departureMono text-sm font-light text-slate-400">
               Web Development & SEO Management Intern
             </p>
-            <span className="font-departureMono text-sm font-light text-slate-300">
+            <span className="font-departureMono text-sm font-light text-slate-300 text-wrap">
               Recommendation Letter:
-              <a href="https://tinyurl.com/4rhwzdc4" className="underline">
+              <a
+                href="https://tinyurl.com/4rhwzdc4"
+                className="underline break-all"
+              >
                 https://tinyurl.com/4rhwzdc4
               </a>
             </span>
@@ -144,12 +148,11 @@ function Experiences() {
             />
           </div>
         </section>
-        <section>
-          <h2 className="font-departureMono text-2xl font-bold text-slate-200 mt-8">
+        <section className="mt-8">
+          <h2 className="font-departureMono text-xl sm:text-2xl font-bold text-slate-200">
             Skills
           </h2>
-          <br />
-          <div className="flex flex-wrap justify-start gap-1.5 py-2 sm:flex">
+          <div className="flex flex-wrap gap-1.5 py-4">
             <CourseSubjectTag subject={"JavaScript"} />
             <CourseSubjectTag subject={"HTML"} />
             <CourseSubjectTag subject={"CSS"} />

@@ -8,10 +8,10 @@ import Projects from "./pages/Projects.jsx";
 
 function App() {
   return (
-    <main className="body flex h-full min-h-screen w-full flex-col items-center justify-start p-8 pt-16 sm:pt-16 text-sm sm:p-16 bg-gradient-to-r from-superdDarkBlue from-20% via-lighterBlue via-65% to-tangerine to-100%">
+    <main className="body min-h-screen w-full flex flex-col items-center justify-start p-4 sm:p-8 md:p-16 pt-12 sm:pt-16 text-sm bg-gradient-to-r from-superdDarkBlue from-20% via-lighterBlue via-65% to-tangerine to-100%">
       <div
-        className="transition-all duration-[2000ms] h-full w-fit sm:space-y-15 space-y-10 
-       sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-5xl"
+        className="transition-all duration-[2000ms] h-full w-fit max-w-[95%] space-y-6 sm:space-y-10 md:space-y-15 
+        sm:max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-5xl"
       >
         <Header />
         <Routes>
