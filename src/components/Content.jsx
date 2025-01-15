@@ -6,13 +6,18 @@ function Content() {
   return (
     <div className="transition-all duration-500 ease-in-out w-full max-w-lg mx-auto">
       <ul className="flex flex-col gap-y-4 w-full">
-        <ScrambleTitle text={"Nicholas Terehin"} />
+        <ScrambleTitle
+          text={"Nicholas Terehin"}
+          textSize={"text-2xl sm:text-3xl font-bold"}
+        />
         <ScrambleParagraph
           text={"nicholasterehin@gmail.com"}
           hoverEffect={true}
-          className={"text-slate-200 text-sm"}
+          className={"text-slate-200 text-xs sm:text-sm"}
         />
-        <span className="font-determination text-gray-500">Brooklyn, NY</span>
+        <span className="font-departureMono text-gray-400 text-xs sm:text-sm font-bold">
+          Brooklyn, NY
+        </span>
         <img src={pfp} alt="" className="h-48 w-48" />
         <ScrambleParagraph
           text={`Hi, I'm Nicholas! I'm a dynamic and passionate software/web developer,
