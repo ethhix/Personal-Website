@@ -10,7 +10,7 @@ function Experiences() {
     <div className="transition-all duration-500 ease-in-out w-full md:max-w-3xl">
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
         <div className="flex flex-col gap-4 flex-1">
-          <ScrambleTitle text="Nicholas Terehin" />
+          <ScrambleTitle text="Nicholas Terehin" textSize={"text-3xl"} />
           <div>
             <ScrambleParagraph
               text="Software Engineer, Web Developer"
