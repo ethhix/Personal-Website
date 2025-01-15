@@ -6,7 +6,7 @@ function Header() {
   const location = useLocation();
   const currentPage = location.pathname;
   return (
-    <header className="flex flex-wrap gap-x-6 text-slate-200">
+    <header className="flex flex-wrap text-xs sm:text-sm gap-x-6 text-slate-200">
       <ScrambleAnchor
         text="[ethhix.dev]"
         to="/"
