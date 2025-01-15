@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const ScrambleTitle = ({ text }) => {
+const ScrambleTitle = ({ text, textSize }) => {
   const [displayText, setDisplayText] = useState(text);
   const [intervalId, setIntervalId] = useState(null);
 
@@ -44,7 +44,7 @@ const ScrambleTitle = ({ text }) => {
   return (
     <h1
       onMouseOver={ScrambleTitle}
-      className="font-departureMono text-slate-200 text-3xl w-fit"
+      className={`font-departureMono text-slate-200 ${textSize} w-fit`}
     >
       {displayText}
     </h1>
