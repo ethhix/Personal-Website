@@ -44,17 +44,9 @@ function Projects() {
       title: "Simple Dynamic To-Do List",
       description: `Developed a dynamic to-do list web application, leveraging JavaScript for real-time task management and Bootstrap for 
 responsive design, facilitating efficient daily activity tracking. `,
-      repoUrl: "https://github.com/ethhix/SimplyDelicious",
+      repoUrl: "https://github.com/ethhix/To-Do-List",
       image: ` `,
-      techStack: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "MySQL",
-        "PHP",
-        "jQuery",
-        "Bootstrap",
-      ],
+      techStack: ["HTML", "CSS", "JavaScript"],
     },
   ];
 

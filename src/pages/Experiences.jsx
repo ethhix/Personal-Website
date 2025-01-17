@@ -20,7 +20,7 @@ function Experiences() {
               hoverEffect={false}
               className="text-slate-400"
             />
-            <span className="font-determination text-gray-500 text-sm sm:text-base">
+            <span className="font-departureMono text-gray-400 text-xs font-bold">
               Brooklyn, NY
             </span>
           </div>
