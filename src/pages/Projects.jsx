@@ -46,7 +46,7 @@ function Projects() {
 responsive design, facilitating efficient daily activity tracking. `,
       repoUrl: "https://github.com/ethhix/To-Do-List",
       image: ` `,
-      techStack: ["HTML", "CSS", "JavaScript"],
+      techStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     },
   ];
 
