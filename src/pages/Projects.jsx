@@ -19,7 +19,7 @@ function Projects() {
       title: "Ethix Bank",
       description: `Designed and developed a banking application that allows users to create checking or savings accounts with unique account numbers. 
       Features an FXML-based interface to display balances, income, expenses, and user-added transactions, with data securely stored and retrieved from MySQL databases.`,
-      repoUrl: "https://github.com/ethhix/EventBoard",
+      repoUrl: "https://github.com/ethhix/Ethix-Bank",
       image: `${BankLogo}`,
       techStack: ["Java", "FXML", "CSS", "MySQL"],
     },
