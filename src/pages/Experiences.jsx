@@ -120,35 +120,46 @@ function Experiences() {
               <a
                 href="https://tinyurl.com/4rhwzdc4"
                 className="underline break-all"
+                target="_blank"
               >
                 https://tinyurl.com/4rhwzdc4
               </a>
             </span>
-            <ScrambleParagraph
-              text={`· Developed and managed WordPress landing pages using Elementor, enhancing layout, navigation, and visual appeal to improve
- user experience and effectively communicate brand messages. Demonstrated expertise in creating visually appealing and
- user-friendly designs.`}
-              hoverEffect={false}
-              className={"text-slate-300 text-sm"}
-            />
-            <ScrambleParagraph
-              text={`· Conducted comprehensive unit testing to ensure cross-device and browser compatibility, maintaining high standards of
-            quality. Demonstrated attention to detail and commitment to delivering robust and reliable web solutions.`}
-              hoverEffect={false}
-              className={"text-slate-300 text-sm"}
-            />
-            <ScrambleParagraph
-              text={`· Implemented SEO strategies for landing pages using SEMRush, enhancing search engine visibility and site ranking through
-             best practices and expertise.`}
-              hoverEffect={false}
-              className={"text-slate-300 text-sm"}
-            />
-            <ScrambleParagraph
-              text={`· Collaborated with the marketing team to design and execute digital marketing campaigns, aligning with the company’s
+            <ul className="flex flex-col gap-2">
+              <li>
+                <ScrambleParagraph
+                  text={`· Developed and managed WordPress landing pages using Elementor, enhancing layout, navigation, and visual appeal to improve
+                  user experience and effectively communicate brand messages. Demonstrated expertise in creating visually appealing and
+                  user-friendly designs.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Conducted comprehensive unit testing to ensure cross-device and browser compatibility, maintaining high standards of
+                  quality. Demonstrated attention to detail and commitment to delivering robust and reliable web solutions.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Implemented SEO strategies for landing pages using SEMRush, enhancing search engine visibility and site ranking through
+                  best practices and expertise.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Collaborated with the marketing team to design and execute digital marketing campaigns, aligning with the company’s
              marketing objectives. Demonstrated strong teamwork and communication skills to enhance campaign effectiveness.`}
-              hoverEffect={false}
-              className={"text-slate-300 text-sm"}
-            />
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+            </ul>
           </div>
         </section>
         <section className="mt-8">
