@@ -8,14 +8,18 @@ function ProjectCard({
   liveUrl,
   image,
   techStack,
+  bgColor = "#1a1a1a",
 }) {
   return (
     <div className="group relative overflow-hidden rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300">
-      <div className="aspect-video overflow-hidden">
+      <div
+        className="aspect-video overflow-hidden"
+        style={{ backgroundColor: bgColor }}
+      >
         <img
           src={image == " " ? defaultProjectCover : image}
           alt={title}
-          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-300"
         />
       </div>
       <div className="min-h-fit p-6">
