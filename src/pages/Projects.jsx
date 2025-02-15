@@ -4,9 +4,18 @@ import EventBoardImage from "../assets/images/BrooklyCollegeLogo.jpg";
 import BankLogo from "../assets/images/banklogo.png";
 import ScrambleTitle from "../ScrambleTitle.jsx";
 import SimplyDeliciousLogo from "../assets/images/SimplyDeliciousLogo.png";
+import GameScannerLogo from "../assets/images/GameScanner.png";
 
 function Projects() {
   const projects = [
+    {
+      title: "GameScanner Chrome Extension",
+      description: `Engineered a Chrome extension that integrates with Twitch.tv, leveraging IGDB and Steam APIs to provide real-time game information. Developed a cloud-hosted Express server with Redis caching for efficient data retrieval, implementing Chrome messaging APIs for seamless communication between client and server components. Created an intuitive hover-based interface that delivers instant access to game details, pricing, and platform availability, enhancing the Twitch browsing experience with zero-click functionality.`,
+      repoUrl: "https://github.com/ethhix/GameScanner",
+      image: `${GameScannerLogo}`,
+      techStack: ["HTML", "CSS", "JavaScript", "Node.js"],
+      bgColor: "#1B182D",
+    },
     {
       title: "B.C. Event Star",
       description: `Collaboratively designed, tested, and developed a simple interactive Brooklyn College-themed EventBoard website with a team that 
@@ -52,7 +61,7 @@ responsive design, facilitating efficient daily activity tracking. `,
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-full max-w-7xl mx-auto py-8">
+      <div className="w-full max-w-8xl mx-auto py-8">
         <ScrambleTitle
           text="Projects"
           textSize={"text-3xl mb-8 font-bold underline"}
