@@ -13,7 +13,14 @@ function Projects() {
       description: `Engineered a Chrome extension that integrates with Twitch.tv, leveraging IGDB and Steam APIs to provide real-time game information. Developed a cloud-hosted Express server with Redis caching for efficient data retrieval, implementing Chrome messaging APIs for seamless communication between client and server components. Created an intuitive hover-based interface that delivers instant access to game details, pricing, and platform availability, enhancing the Twitch browsing experience with zero-click functionality.`,
       repoUrl: "https://github.com/ethhix/GameScanner",
       image: `${GameScannerLogo}`,
-      techStack: ["HTML", "CSS", "JavaScript", "Node.js"],
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "Chrome API",
+      ],
       bgColor: "#1B182D",
     },
     {
