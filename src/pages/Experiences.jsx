@@ -104,12 +104,12 @@ function Experiences() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
               <div className="flex flex-wrap items-center gap-2">
                 <h3 className="font-departureMono text-xl font-bold text-slate-400 leading-none">
-                  ITV Digital Marketing
+                  Nexevu Digital Marketing
                 </h3>
                 <CourseSubjectTag subject={"Brooklyn, NY"} />
               </div>
               <p className="font-departureMono text-sm font-light text-slate-400 leading-none">
-                Jun'24-Sep'24
+                Jun'24-Present
               </p>
             </div>
             <p className="font-departureMono text-sm font-light text-slate-400">
@@ -128,38 +128,109 @@ function Experiences() {
             <ul className="flex flex-col gap-2">
               <li>
                 <ScrambleParagraph
-                  text={`· Developed and managed WordPress landing pages using Elementor, enhancing layout, navigation, and visual appeal to improve
-                  user experience and effectively communicate brand messages. Demonstrated expertise in creating visually appealing and
-                  user-friendly designs.`}
+                  text={`· Build and manage 8+ WordPress landing pages with Elementor for client campaigns, 
+                  optimizing layout and navigation to elevate UX and the brand.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
               </li>
               <li>
                 <ScrambleParagraph
-                  text={`· Conducted comprehensive unit testing to ensure cross-device and browser compatibility, maintaining high standards of
-                  quality. Demonstrated attention to detail and commitment to delivering robust and reliable web solutions.`}
+                  text={`· Perform unit testing across 5+ browsers and devices, ensuring high-quality, reliable web solutions for a diverse client base.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
               </li>
               <li>
                 <ScrambleParagraph
-                  text={`· Implemented SEO strategies for landing pages using SEMRush, enhancing search engine visibility and site ranking through
-                  best practices and expertise.`}
+                  text={`· Implement SEO strategies with SEMRush, increasing site 
+                  rankings and organic traffic by 15% during internship.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
               </li>
               <li>
                 <ScrambleParagraph
-                  text={`· Collaborated with the marketing team to design and execute digital marketing campaigns, aligning with the company’s
-             marketing objectives. Demonstrated strong teamwork and communication skills to enhance campaign effectiveness.`}
+                  text={`· Collaborate with a cross-functional marketing team to design and execute digital campaigns, 
+                  supporting company objectives and effectiveness.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Support site-reliability engineering by monitoring uptime and load metrics 
+                  for 12+ WordPress sites, reducing downtime by 20% overall.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Reduced client defects by 25% over 6 months by debugging 8+ WordPress sites with Chrome DevTools and WP Debug tools.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
               </li>
             </ul>
+          <div className="flex flex-col gap-3">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <h3 className="font-departureMono text-xl font-bold text-slate-400 leading-none">
+                   CenterLight Health System
+                </h3>
+                <CourseSubjectTag subject={"Brooklyn, NY"} />
+              </div>
+              <p className="font-departureMono text-sm font-light text-slate-400 leading-none">
+                 June'18-August'18
+              </p>
+            </div>
+            <p className="font-departureMono text-sm font-light text-slate-400">
+              Healthcare Support Assistant
+            </p>
+            <ul className="flex flex-col gap-2">
+              <li>
+                <ScrambleParagraph
+                  text={`· Adjusted activity plans and facilitated daily activities for 30+ patients with varying 
+                  abilities and interests, improving engagement and satisfaction.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Maintained and organized 200+ physical and digital patient records, ensuring accuracy, 
+                  compliance, and efficient retrieval for care teams.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Coordinated with management to assess patient needs, implement improvements, 
+                  and complete tasks in a fast-paced healthcare environment.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Created and managed documents and spreadsheets in Microsoft Word and Excel 
+                  to support operations and meet regulatory standards.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+              </li>
+              <li>
+                <ScrambleParagraph
+                  text={`· Communicated professionally with patients, families, and staff to provide information, direct inquiries, 
+                  and support a positive care environment.`}
+                  hoverEffect={false}
+                  className={"text-slate-300 text-sm"}
+                />
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
         <section className="mt-8">
