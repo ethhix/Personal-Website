@@ -173,7 +173,7 @@ function Experiences() {
               <li>
                 <ScrambleParagraph
                   text={`· Developed 8+ WordPress landing pages with Elementor for client campaigns, optimizing layout and navigation to
-                  enhance user experience`}
+                  enhance user experience.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
@@ -181,7 +181,7 @@ function Experiences() {
               <li>
                 <ScrambleParagraph
                   text={`· Performed unit testing across 5+ browsers and devices, ensuring high-quality, reliable web solutions for a diverse
-                  client base`}
+                  client base.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
@@ -204,14 +204,14 @@ function Experiences() {
               <li>
                 <ScrambleParagraph
                   text={`· Supported site-reliability engineering by monitoring uptime and load metrics for 12+ WordPress sites, reducing
-                  downtime by 20% overall`}
+                  downtime by 20% overall.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
               </li>
               <li>
                 <ScrambleParagraph
-                  text={`· Reduced client defects by 25% over 3 months by debugging 8+ WordPress sites with Chrome DevTools and WP Debug tools`}
+                  text={`· Reduced client defects by 25% over 3 months by debugging 8+ WordPress sites with Chrome DevTools and WP Debug tools.`}
                   hoverEffect={false}
                   className={"text-slate-300 text-sm"}
                 />
