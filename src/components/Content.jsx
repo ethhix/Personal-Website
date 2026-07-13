@@ -20,41 +20,42 @@ function Content() {
         </span>
         <img src={pfp} alt="" className="h-48 w-48" />
         <ScrambleParagraph
-          text={`Hi, I'm Nicholas! I'm a dynamic and passionate software/web developer,
-          I transitioned from Speech Pathology to Computer Science during my
-          college tenure at Brooklyn College.`}
-          hoverEffect={false}
-          className={"text-slate-200 text-sm"}
-        />
-        <ScrambleParagraph
-          text={`I demonstrate a relentless drive for excellence and continuous skill
-          enhancement, I am focused on applying my growing expertise in
-          languages such as Java, HTML, JavaScript, CSS, and others.`}
-          hoverEffect={false}
-          className={"text-slate-200 text-sm"}
-        />
-        <ScrambleParagraph
-          text={`My goal is to innovate and contribute in the software and web
-          development arenas. My journey has been marked by a deep commitment to
-          learning and adapting, underscored by significant projects and
-          coursework that exhibit my capabilities in both collaborative and
-          independent settings.`}
-          hoverEffect={false}
-          className={"text-slate-200 text-sm"}
-        />
-        <ScrambleParagraph
-          text={`I am eager to bring a unique blend of analytical skills, creative
-          problem-solving, and technical acumen to a forward-thinking software
-          engineering or web development team.`}
-          hoverEffect={false}
-          className={"text-slate-200 text-sm"}
-        />
-        <ScrambleParagraph
-          text={`Thank you for viewing my website! If what you read resonates with you,
-          feel free to get in touch—I’d love to connect!`}
-          hoverEffect={false}
-          className={"text-slate-200 text-sm"}
-        />
+            text={`Hi, I'm Nicholas! I'm a cybersecurity analyst based in Brooklyn, NY.
+            I started college studying speech pathology, then switched into computer
+            science, and more recently completed a hands-on Cybersecurity Analyst
+            program with Per Scholas.`}
+            hoverEffect={false}
+            className={"text-slate-200 text-sm"}
+          />
+          <ScrambleParagraph
+            text={`I hold CompTIA CySA+ and Splunk Core Certified User certifications,
+            and I've built hands-on experience through a home lab and independent
+            security projects—developing practical skills in threat detection, log
+            analysis, incident response workflows, and network defense along the way.`}
+            hoverEffect={false}
+            className={"text-slate-200 text-sm"}
+          />
+          <ScrambleParagraph
+            text={`Before the shift into security, I built a solid foundation in software
+            and web development, working with Java, JavaScript, Python, and full-stack
+            tools. That background comes in handy now, whether I'm scripting a log
+            parser, automating a task, or just thinking through a problem methodically.`}
+            hoverEffect={false}
+            className={"text-slate-200 text-sm"}
+          />
+          <ScrambleParagraph
+            text={`I'm looking to bring that mix of analytical thinking and technical
+            background to an entry-level SOC analyst or cybersecurity role, where I can
+            keep learning and contribute from day one.`}
+            hoverEffect={false}
+            className={"text-slate-200 text-sm"}
+          />
+          <ScrambleParagraph
+            text={`Thank you for viewing my website! If what you read resonates with you,
+            feel free to get in touch—I'd love to connect!`}
+            hoverEffect={false}
+            className={"text-slate-200 text-sm"}
+          />
       </ul>
     </div>
   );
