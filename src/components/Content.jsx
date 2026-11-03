@@ -23,7 +23,7 @@ function Content() {
         <img src={pfp} alt="Nicholas Terehin" className="h-48 w-48" />
         <ScrambleParagraph
           text={
-            "Hi, I’m Nicholas! I work at the intersection of IT support and cybersecurity. I started college studying speech pathology, switched to computer science, and earned my BS from Brooklyn College. More recently, I completed the Cybersecurity Analyst program at Per Scholas."
+            "Hi, I’m Nicholas! I’m focused on IT support and cybersecurity. I started college studying speech pathology, switched to computer science, and earned my BS from Brooklyn College. More recently, I completed the Cybersecurity Analyst program at Per Scholas."
           }
           hoverEffect={false}
           className={"text-slate-200 text-sm"}
@@ -37,7 +37,14 @@ function Content() {
         />
         <ScrambleParagraph
           text={
-            "Before moving into security, I worked in web development with Java, JavaScript, and Python. That background helps me troubleshoot problems step by step and automate repetitive tasks."
+            "Before moving into security, I spent a year as a web development intern, building and troubleshooting WordPress sites for clients. I’ve also built full stack projects on my own, including a recipe sharing site with PHP and MySQL and a Chrome extension that pulls live game data from APIs through a Node.js server, along with object oriented projects in Java. That background helps me troubleshoot problems step by step and automate repetitive tasks."
+          }
+          hoverEffect={false}
+          className={"text-slate-200 text-sm"}
+        />
+        <ScrambleParagraph
+          text={
+            "Between my internship and a healthcare support role, I’ve learned to work well with a team and explain technical things in plain language, which matters as much as the technical skills in IT."
           }
           hoverEffect={false}
           className={"text-slate-200 text-sm"}
